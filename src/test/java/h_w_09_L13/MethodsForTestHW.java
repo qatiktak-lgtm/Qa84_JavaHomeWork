@@ -41,6 +41,7 @@ public class MethodsForTestHW {
         assertEquals(-3, res);
         res = MethodsForTestHW.parseAndSum("-12", "3");
         assertEquals(-9, res);
+
         //NegativTests
         res = MethodsForTestHW.parseAndSum(" 12", "3a");
         assertEquals(15, res);
